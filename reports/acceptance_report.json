@@ -1,0 +1,56 @@
+{
+  "stage": "阶段 7",
+  "accepted": true,
+  "date": "2026-06-11",
+  "mock_demo": {
+    "passed": true,
+    "repair_rounds_used": 0,
+    "failed_count": 0
+  },
+  "real_crewai_demo": {
+    "passed": true,
+    "command": "D:\\projects\\softTeam\\.venv\\Scripts\\python.exe main.py --run-demo"
+  },
+  "test_runner": {
+    "passed": true,
+    "total": 10,
+    "passed_count": 10,
+    "failed_count": 0
+  },
+  "browser_check": {
+    "url": "http://127.0.0.1:8765/index.html",
+    "title": "贪吃蛇游戏",
+    "has_canvas": true,
+    "has_score": true,
+    "has_restart_button": true,
+    "console_error_count": 0,
+    "restart_interaction_passed": true
+  },
+  "artifacts": {
+    "source_files": [
+      "generated/snake-game/index.html",
+      "generated/snake-game/style.css",
+      "generated/snake-game/script.js"
+    ],
+    "requirement_docs": [
+      "outputs/requirements.md",
+      "outputs/requirements.json"
+    ],
+    "architecture_docs": [
+      "outputs/architecture.md",
+      "outputs/architecture.json"
+    ],
+    "test_reports": [
+      "reports/test_report.md",
+      "reports/test_report.json",
+      "reports/final_repair_report.md",
+      "reports/final_repair_report.json",
+      "reports/acceptance_report.md",
+      "reports/acceptance_report.json"
+    ],
+    "experience_docs": [
+      "docs/experience.md",
+      "docs/development-log.md"
+    ]
+  }
+}

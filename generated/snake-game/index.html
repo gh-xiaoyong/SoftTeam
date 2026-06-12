@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贪吃蛇游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="header">
+            <span>分数: <span id="score-display">0</span></span>
+            <button id="restart-btn">重新开始</button>
+        </div>
+        <canvas id="game-canvas" width="400" height="400"></canvas>
+        <div id="game-over-overlay" class="hidden">
+            <span id="game-over-text">游戏结束</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

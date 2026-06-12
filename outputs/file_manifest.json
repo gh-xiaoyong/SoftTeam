@@ -1,0 +1,23 @@
+{
+  "project_name": "贪吃蛇游戏",
+  "project_root": "generated/snake-game",
+  "entry_point": "generated/snake-game/index.html",
+  "run_instruction": "直接在浏览器中打开 generated/snake-game/index.html 文件即可运行游戏。确保 style.css 和 script.js 与 index.html 在同一目录下。",
+  "files": [
+    {
+      "path": "generated/snake-game/index.html",
+      "purpose": "主页面结构，包含游戏画布、分数显示和重新开始按钮",
+      "language": "html"
+    },
+    {
+      "path": "generated/snake-game/style.css",
+      "purpose": "游戏界面样式，包括网格布局、蛇和食物的颜色、按钮样式、游戏结束提示样式",
+      "language": "css"
+    },
+    {
+      "path": "generated/snake-game/script.js",
+      "purpose": "游戏核心逻辑，包含蛇移动、食物生成、碰撞检测、分数更新、游戏循环控制等",
+      "language": "javascript"
+    }
+  ]
+}

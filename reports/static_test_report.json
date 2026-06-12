@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "total": 10,
+  "passed_count": 10,
+  "failed_count": 0,
+  "cases": [
+    {
+      "name": "index.html 文件存在",
+      "passed": true,
+      "expected": "生成目录中存在 index.html",
+      "actual": "文件存在",
+      "detail": "检查源码文件是否已落盘。"
+    },
+    {
+      "name": "style.css 文件存在",
+      "passed": true,
+      "expected": "生成目录中存在 style.css",
+      "actual": "文件存在",
+      "detail": "检查源码文件是否已落盘。"
+    },
+    {
+      "name": "script.js 文件存在",
+      "passed": true,
+      "expected": "生成目录中存在 script.js",
+      "actual": "文件存在",
+      "detail": "检查源码文件是否已落盘。"
+    },
+    {
+      "name": "HTML 正确引用 CSS 和 JS",
+      "passed": true,
+      "expected": "index.html 包含 href=\"style.css\" 和 src=\"script.js\"",
+      "actual": "引用完整",
+      "detail": "静态页面必须把样式和脚本接入入口 HTML。"
+    },
+    {
+      "name": "页面包含游戏区域",
+      "passed": true,
+      "expected": "HTML 中存在 canvas，或存在可识别的 game/board/grid 游戏区域",
+      "actual": "找到游戏区域",
+      "detail": "HTML 长度：764 字符。"
+    },
+    {
+      "name": "页面包含分数显示",
+      "passed": true,
+      "expected": "HTML 中存在分数文本，或 id/class 包含 score 的元素",
+      "actual": "找到分数显示",
+      "detail": "分数显示用于验证吃到食物后的计分反馈。"
+    },
+    {
+      "name": "页面包含重新开始按钮",
+      "passed": true,
+      "expected": "HTML 中存在重新开始按钮",
+      "actual": "找到重新开始按钮",
+      "detail": "重新开始按钮用于游戏结束后恢复初始状态。"
+    },
+    {
+      "name": "JS 包含方向键监听",
+      "passed": true,
+      "expected": "script.js 中监听 keydown，并处理方向键",
+      "actual": "找到方向键监听",
+      "detail": "keydown=True，方向键命中特征数=4。"
+    },
+    {
+      "name": "JS 包含碰撞检测",
+      "passed": true,
+      "expected": "script.js 中存在撞墙或撞到自身后的游戏结束逻辑",
+      "actual": "找到碰撞检测逻辑",
+      "detail": "碰撞命名=True，边界检测=True，自身检测=True。"
+    },
+    {
+      "name": "JS 包含计分逻辑",
+      "passed": true,
+      "expected": "script.js 中存在分数状态、加分逻辑和页面更新逻辑",
+      "actual": "找到计分逻辑",
+      "detail": "分数状态=True，加分=True，页面更新=True。"
+    }
+  ],
+  "defects": [],
+  "summary": "阶段 5A 静态测试通过。测试目录：generated/snake-game；通过 10 项，失败 0 项。"
+}
